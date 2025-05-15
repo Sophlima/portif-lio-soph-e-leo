@@ -1,0 +1,43 @@
+header {
+    text-align: center;
+    background-color: hotpink;
+    padding: 30px;
+}
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+main {
+    background-color: rgb(253, 155, 204);
+    text-align: center;
+    padding: 30px;
+}
+h2 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+li {
+    margin: 10px auto;
+    padding: 10px;
+    background-color: hotpink;
+    width: 30%;
+    border-radius: 10px;
+}
+li:hover {
+    width: 33%;
+    background-color: hotpink;
+}
+footer {
+    background-color: hotpink;
+text-align: center;
+padding: 20px;
+}
+footer img {
+    width: 100%;
+}
