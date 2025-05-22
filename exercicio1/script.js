@@ -11,9 +11,9 @@ resultado = num1 + num2;
 parOUimpar = resultado % 2;
 
 if(parOUimpar == 0 ) {
-    alert("o número " + resultado + "é par");
+    alert("o número " + resultado + " é par");
 } else {
-    alert("o número " + resultado + "é ímpar");
+    alert("o número " + resultado + " é ímpar");
 }
 
 /*if(resultado > 10) {
