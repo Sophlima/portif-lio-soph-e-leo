@@ -4,6 +4,7 @@ let nota2 = Number(window.promt("Digite sua nota 2: "))
 let nota3 = Number(window.promt("Digite sua nota 3: "))
 let pontosFaltando;
 
+
 let total = (nota1 + nota2 + nota3)/3;
 
 alura = "alura"
