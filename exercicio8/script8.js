@@ -1,17 +1,24 @@
 //acessa a parte do texto que vai ser modificada no html
 let mostraHTML = document.getElementById("mostraHTML"); 
 let numero = 0;
-let num1 = Number(window.prompt("Digite aqui o primeiro número:"));
+let num_adiv = 0
 
+function adiv(){
+    let frase
 
-function aleatorio(){
-    
-    numero = parseInt (Math.random() * 101);
+    num_adiv = Number(window.prompt("Digite um número de 1 a 100"));
 
-    mostraHTML.innerHTML += `<p>Pensei no número..</p>`;
-}
+    numero = parseInt(Math.random() * 101);
 
+    frase = mostraHTML.innerHTML += '<p>Você escolheu $(num_aidv).</p>'
 
-   if(num1 > numero){
-    alert(num1 + " é maior que " + numero)
+    if(num_adiv > numero){
+        mostraHTML.innerHTML = '<p>Você escolheu ${num_adiv}. Meu número é MENOR</p>'
+    }else{
+        mostraHTML.innerHTML = '<p>Você escolheu ${num_adiv}. Meu número é MAIOR</p>'
+    }
+
+    if (num_adiv <= numero){
+        mostraHTML.innerHTML = '<p>Parábens você ganhou!</p>'
+    }
 }
